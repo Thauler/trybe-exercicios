@@ -7,3 +7,6 @@ h1, p {
 .top3-sites:active {
     font-family: 'Courier New', Courier, monospace;
 }
+li {
+    list-style: none;
+}
