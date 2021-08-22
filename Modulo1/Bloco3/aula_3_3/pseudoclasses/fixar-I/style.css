@@ -1,0 +1,12 @@
+h1, p {
+    text-align: center;
+}
+.top3-sites:hover {
+    background-color: blueviolet;
+}
+.top3-sites:active {
+    font-family: 'Courier New', Courier, monospace;
+}
+li {
+    list-style: none;
+}
