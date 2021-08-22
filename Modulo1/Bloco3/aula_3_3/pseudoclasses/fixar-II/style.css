@@ -1,0 +1,35 @@
+div:hover {
+    width: 160px;
+    height: 55px;
+    border: solid white;
+    border-radius: 10px;
+}
+.primaria:hover {
+    background-color: rgb(255, 0, 0);
+}
+.secundaria:hover {
+    background-color: green;
+}
+.complementar:hover {
+    background-color: rgb(255, 255, 0);
+}
+.escura:hover {
+    background-color: darkblue;
+}
+.clara:hover {
+    background-color: lightcoral;
+}
+h3 {
+    position: relative;
+    left: 15px;
+
+}
+#comple:hover {
+    width: 180px;
+    height: 55px;
+    border: solid white;
+    border-radius: 10px;
+}
+.primaria, .complementar, .clara {
+    font-style: italic;
+}
