@@ -1,0 +1,10 @@
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+//let soma = (accumulative , currentValue) => accumulative + currentValue;
+//let mediaAritmética = numbers.reduce(soma) / numbers.length;
+//console.log(mediaAritmética);
+let resultado = 0;
+for (let index = 0; index < numbers.length; index += 1) {
+    resultado += numbers[index];    
+}
+let mediaAritmética = resultado / numbers.length;
+console.log(mediaAritmética);
