@@ -7,3 +7,7 @@ const main = document.createElement('main');
 main.className = 'main-content';
 document.body.appendChild(main);
 // 3
+const sectionCenter = document.createElement('section');
+sectionCenter.className = 'center-content';
+main.appendChild(sectionCenter);
+// 4
