@@ -11,3 +11,7 @@ const sectionCenter = document.createElement('section');
 sectionCenter.className = 'center-content';
 main.appendChild(sectionCenter);
 // 4
+const p = document.createElement('p');
+p.innerText = 'Adicione seu texto aqui';
+sectionCenter.appendChild(p);
+// 5
