@@ -19,3 +19,7 @@ const sectionLeft = document.createElement('section');
 sectionLeft.className = 'left-content';
 main.appendChild(sectionLeft);
 // 6
+const sectionRight = document.createElement('section');
+sectionRight.className = 'right-content';
+main.appendChild(sectionRight);
+// 7
