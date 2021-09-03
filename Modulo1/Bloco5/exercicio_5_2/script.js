@@ -23,3 +23,8 @@ const sectionRight = document.createElement('section');
 sectionRight.className = 'right-content';
 main.appendChild(sectionRight);
 // 7
+const img = document.createElement('img');
+img.src = 'https://picsum.photos/200';
+img.className = 'small-image';
+sectionLeft.appendChild(img);
+// 8
