@@ -15,3 +15,7 @@ const p = document.createElement('p');
 p.innerText = 'Adicione seu texto aqui';
 sectionCenter.appendChild(p);
 // 5
+const sectionLeft = document.createElement('section');
+sectionLeft.className = 'left-content';
+main.appendChild(sectionLeft);
+// 6
