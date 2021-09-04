@@ -50,3 +50,20 @@ main.appendChild(newh3B);
 let newh3C = document.createElement('h3');
 main.appendChild(newh3C);
 // 10
+// 10.1
+h1.className = 'title';
+//10.2
+newh3A.className = 'description';
+newh3B.className = 'description';
+newh3C.className = 'description';
+// 10.3
+main.removeChild(sectionLeft);
+// 10.4
+document.getElementsByClassName('.right-content');
+sectionRight.style.marginRight = 'auto';
+// 10.5
+document.getElementsByName(sectionCenter);
+sectionCenter.style.background = 'green'
+// 10.6
+ulList.lastChild.remove();
+ulList.lastChild.remove();
