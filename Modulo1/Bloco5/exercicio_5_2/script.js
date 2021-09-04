@@ -28,3 +28,25 @@ img.src = 'https://picsum.photos/200';
 img.className = 'small-image';
 sectionLeft.appendChild(img);
 // 8
+const ulList = document.createElement('ul');
+ulList.className = 'ul-numbers';
+sectionRight.appendChild(ulList);
+// 8.1
+let spelledOutNums = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
+
+for (let index = 0; index < spelledOutNums.length; index += 1) {
+    let listIten = spelledOutNums[index];
+
+    const liWrittenOutNum = document.createElement('li');
+    liWrittenOutNum.innerText = listIten;
+
+    ulList.appendChild(liWrittenOutNum);
+}
+// 9
+let newh3A = document.createElement('h3');
+main.appendChild(newh3A);
+let newh3B = document.createElement('h3');
+main.appendChild(newh3B);
+let newh3C = document.createElement('h3');
+main.appendChild(newh3C);
+// 10
