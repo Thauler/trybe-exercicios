@@ -131,12 +131,13 @@ backGroundTask('darkred');
 
 
 // 9
+let colorDiv = document.querySelectorAll('.task');
 taskDiv.addEventListener('click', function () {
-  for (let index = 0; index < myTasks.length; index += 1) {
-    if (myTasks[index].className === 'task') {
-      myTasks[index].className = 'task selected';
+  for (let index = 0; index < colorDiv.length; index += 1) {
+    if (colorDiv[index].className === 'task') {
+      colorDiv[index].className = 'task selected';
     } else {
-      myTasks[index].className = 'task'
+      colorDiv[index].className = 'task'
     }
 
   }
