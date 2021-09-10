@@ -144,3 +144,17 @@ taskDiv.addEventListener('click', function () {
 });
 
 // 10
+// chamar um dia no mês
+let monthDay = document.getElementById('days');
+let liDays = document.querySelectorAll('.day');
+let taskColor = document.querySelector('.task');
+// adicionar evento
+taskColor.addEventListener('click', function () {
+  for (let index = 0; index < liDays.length; index += 1) {
+    if (liDays[0].style.color === taskColor.style.background) {
+      liDays[0].style.color = 'rgb(119,119,119)'
+    } else {
+      liDays[0].style.color = taskColor.style.background;
+    }
+  }
+})
