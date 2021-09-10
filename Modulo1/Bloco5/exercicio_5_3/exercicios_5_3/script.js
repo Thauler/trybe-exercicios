@@ -111,11 +111,21 @@ function normalSizeDays(event) {
 
 // 7
 let taskDiv = document.querySelector('.my-tasks')
+
 function taskGenerator(task) {
   let spanTask = document.createElement('span');
   spanTask.innerText = task;
   taskDiv.appendChild(spanTask);
 }
 taskGenerator('Cozinhar');
-
 // 8
+let myTasks = document.querySelectorAll('span');
+
+function backGroundTask(cor) {
+  for (let index = 0; index < myTasks.length; index += 1) {
+    myTasks[index].style.background = cor;
+  }
+}
+backGroundTask('#Af0');
+
+// 9
