@@ -129,3 +129,15 @@ function backGroundTask(cor) {
 backGroundTask('#Af0');
 
 // 9
+taskDiv.addEventListener('click', function () {
+  for (let index = 0; index < myTasks.length; index += 1) {
+    if (myTasks[index].className === 'task') {
+      myTasks[index].className = 'task selected';
+    } else {
+      myTasks[index].className = 'task'
+    }
+
+  }
+});
+
+// 10
