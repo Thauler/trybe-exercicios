@@ -108,3 +108,14 @@ function normalSizeDays(event) {
   event.target.style.fontSize = '20px';
   event.target.style.border = '';
 }
+
+// 7
+let taskDiv = document.querySelector('.my-tasks')
+function taskGenerator(task) {
+  let spanTask = document.createElement('span');
+  spanTask.innerText = task;
+  taskDiv.appendChild(spanTask);
+}
+taskGenerator('Cozinhar');
+
+// 8
