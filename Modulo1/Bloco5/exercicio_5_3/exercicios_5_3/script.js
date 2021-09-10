@@ -121,12 +121,14 @@ taskGenerator('Cozinhar');
 // 8
 let myTasks = document.querySelectorAll('span');
 
-function backGroundTask(cor) {
-  for (let index = 0; index < myTasks.length; index += 1) {
-    myTasks[index].style.background = cor;
-  }
+function backGroundTask(color) {
+  let colorDiv = document.createElement('div');
+  colorDiv.className = 'task';
+  colorDiv.style.background = color;
+  taskDiv.appendChild(colorDiv);
 }
-backGroundTask('#Af0');
+backGroundTask('darkred');
+
 
 // 9
 taskDiv.addEventListener('click', function () {
