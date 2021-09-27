@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@media screen and (max-length: 375px) {
+  .aside-one {
+    display: flex;
+  }
+  body {
+    display: flex;
+    text-align: center;
+  }
+}
+
+  @media screen and (min-length: 768px) {
+    body {
+      text-transform: uppercase;
+    }
+  }
+
+  @media screen and (max-length: 1024px) {
+    
+  }
