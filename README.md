@@ -30,28 +30,28 @@
 - [:white_check_mark:] 5-1: _JavaScript - DOM e seletores_
 - [:white_check_mark:] 5-2: _JavaScript - Trabalhando com elementos_
 - [:white_check_mark:] 5-3: _JavaScript - Eventos_
-- [ ] 5-4: _JavaScript - Web Storage_
+- [:white_check_mark:] 5-4: _JavaScript - Web Storage_
 - [ ] 5-5: _[Projeto - Meme Generator]()_
-- [ ] 5-6: _[Projeto - Arte com Pixels]()_
-- [ ] 5-7: _[Projeto - Lista de tarefas]()_
+- [:white_check_mark:] 5-6: _[Projeto - Arte com Pixels]()_
+- [:white_check_mark:] 5-7: _[Projeto - Lista de tarefas]()_
 - [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
 - [ ] 5-7: _[Projeto - Carta Misteriosa]()_
 
 ##### Bloco 6: HTML & CSS avançado
 
-- [ ] 6-1: _HTML & CSS - Forms_
-- [ ] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
-- [ ] 6-3: _CSS Flexbox - Part 1_
-- [ ] 6-4: _CSS Flexbox - Part 2_
-- [ ] 6-5: _CSS Responsivo - Mobile First_
-- [ ] 6-6: _[Projeto - Página inicial do Facebook]()_
+- [:white_check_mark:] 6-1: _HTML & CSS - Forms_
+- [:white_check_mark:] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
+- [:white_check_mark:] 6-3: _CSS Flexbox - Part 1_
+- [:white_check_mark:] 6-4: _CSS Flexbox - Part 2_
+- [:white_check_mark:] 6-5: _CSS Responsivo - Mobile First_
+- [:white_check_mark:] 6-6: _[Projeto - Trybewarts]()_
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
-- [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
-- [ ] 7-2: _JavaScript ES6 - Objects_
-- [ ] 7-3: _Testes unitários em JavaScript_
-- [ ] 7-4: _[Projeto - JavaScript Testes Unitários]()_
+- [:white_check_mark:] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [:white_check_mark:] 7-2: _JavaScript ES6 - Objects_
+- [:white_check_mark:] 7-3: _Testes unitários em JavaScript_
+- [:white_check_mark:] 7-4: _[Projeto - JavaScript Testes Unitários]()_
 
 ##### Bloco 8: JavaScript ES6
 
