@@ -1,0 +1,5 @@
+.pokemon {
+  border: 1px solid darkblue;
+  border-radius: 10%;
+  box-sizing:border-box;
+}
