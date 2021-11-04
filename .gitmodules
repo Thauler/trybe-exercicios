@@ -1,0 +1,3 @@
+[submodule "front-end/Bloco11/exercicio11_1/front-end/Bloco11/exercicio11_1/exercise-pokedex-state"]
+	path = front-end/Bloco11/exercicio11_1/front-end/Bloco11/exercicio11_1/exercise-pokedex-state
+	url = git@github.com:Thauler/exercise-pokedex-state.git
