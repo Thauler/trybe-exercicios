@@ -2,7 +2,7 @@ const { Book } = require('../models');
 
 const findAll = async (_req, res) => {
   try {
-    const result = await Book.findAll();
+    const result = await Book.findAll({ order: [ ['title', 'ASC'], ['createdAt', 'ASC'] ]});
 
     return res.status(200).json(result);
   } catch (e) {
